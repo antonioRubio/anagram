@@ -21,7 +21,7 @@ class TestAnagram(unittest.TestCase):
         self.assertEquals(set(["aa"]), output)
         
     def test_three_equal_and_four_letters(self):
-        self.anagram.set_input("sess")
+        self.anagram.set_input("sses")
         output = self.anagram.get_output()
         self.assertEquals(set(["sess"]), output)
         
